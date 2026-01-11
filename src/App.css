@@ -1,0 +1,65 @@
+/* App.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.select-container,
+.coordinates-container {
+  margin: 10px;
+}
+
+select,
+input {
+  padding: 14px 16px;
+  margin: 6px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+
+  background-color: #443b3b;
+  color: #f5f5f5;
+}
+label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 6px;
+}
+
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.app-title {
+  margin: 20px 0 10px 0;
+
+  font-size: 44px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+
+  background: linear-gradient(135deg, #0f3eab, #2603e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow: 0 0 20px rgba(40, 123, 148, 0.4);
+}
+.App {
+  text-align: center;
+}
